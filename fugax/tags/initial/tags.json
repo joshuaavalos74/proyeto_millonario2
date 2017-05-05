@@ -1,0 +1,141 @@
+[
+  {
+    "model": "tags.tag",
+    "pk": 1,
+    "fields": {
+      "name": "Musica",
+    }
+  },
+   {
+    "model": "tags.tag",
+    "pk": 2,
+    "fields": {
+      "name": "Peliculas",
+    }
+  },
+   {
+    "model": "tags.tag",
+    "pk": 3,
+    "fields": {
+      "name": "Religion",
+    }
+  },
+   {
+    "model": "tags.tag",
+    "pk": 4,
+    "fields": {
+      "name": "Videojuegos",
+    }
+  },
+   {
+    "model": "tags.tag",
+    "pk": 5,
+    "fields": {
+      "name": "Anime y Manga",
+    }
+  },
+   {
+    "model": "tags.tag",
+    "pk": 6,
+    "fields": {
+      "name": "Animales",
+    }
+  },
+   {
+    "model": "tags.tag",
+    "pk": 7,
+    "fields": {
+      "name": "Libros",
+    }
+  },
+   {
+    "model": "tags.tag",
+    "pk": 8,
+    "fields": {
+      "name": "Ropa",
+    }
+  },
+   {
+    "model": "tags.tag",
+    "pk": 9,
+    "fields": {
+      "name": "Deporte",
+    }
+  },
+   {
+    "model": "tags.tag",
+    "pk": 10,
+    "fields": {
+      "name": "Estudios",
+    }
+  },
+   {
+    "model": "tags.tag",
+    "pk": 11,
+    "fields": {
+      "name": "Rock",
+      "parent_tag": 1
+    }
+  },
+   {
+    "model": "tags.tag",
+    "pk": 12,
+    "fields": {
+      "name": "Reggaeton",
+      "parent_tag": 1
+    }
+  },
+   {
+    "model": "tags.tag",
+    "pk": 13,
+    "fields": {
+      "name": "Electronica",
+      "parent_tag":1
+    }
+  },
+   {
+    "model": "tags.tag",
+    "pk": 14,
+    "fields": {
+      "name": "Latino",
+      "parent_tag": 1
+    }
+  },
+     {
+    "model": "tags.tag",
+    "pk": 15,
+    "fields": {
+      "name": "Metal",
+      "parent_tag": 1
+    }
+  },
+     {
+    "model": "tags.tag",
+    "pk": 16,
+    "fields": {
+      "name": "Pop",
+      "parent_tag": 1
+    }
+  },
+     {
+    "model": "tags.tag",
+    "pk": 17,
+    "fields": {
+      "name": "R&B",
+      "parent_tag": 1
+    }
+  },
+     {
+    "model": "tags.tag",
+    "pk": 18,
+    "fields": {
+      "name": "Rap",
+      "parent_tag": 1
+    }
+  },
+ 
+ 
+ 
+ 
+ 
+]

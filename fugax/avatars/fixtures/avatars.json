@@ -1,0 +1,96 @@
+[{
+    "pk": 1,
+    "model": "avatars.avatar",
+    "fields": {
+        "image": "/media/avatars/black.png"
+
+    }
+},
+{
+    "pk": 2,
+    "model": "avatars.avatar",
+    "fields": {
+        "image": "/media/avatars/casper.ico"
+
+    }
+},
+{
+    "pk": 3,
+    "model": "avatars.avatar",
+    "fields": {
+        "image": "/media/avatars/clown.png"
+
+    }
+}]
+[{
+    "pk": 4,
+    "model": "avatars.avatar",
+    "fields": {
+        "image": "/media/avatars/death.ico"
+
+    }
+}]
+[{
+    "pk": 5,
+    "model": "avatars.avatar",
+    "fields": {
+        "image": "/media/avatars/man.png"
+
+    }
+}]
+[{
+    "pk": 6,
+    "model": "avatars.avatar",
+    "fields": {
+        "image": "/media/avatars/mask.png"
+
+    }
+}]
+[{
+    "pk": 7,
+    "model": "avatars.avatar",
+    "fields": {
+        "image": "/media/avatars/play.png"
+
+    }
+}]
+[{
+    "pk": 8,
+    "model": "avatars.avatar",
+    "fields": {
+        "image": "/media/avatars/rare.png"
+
+    }
+}]
+[{
+    "pk": 9,
+    "model": "avatars.avatar",
+    "fields": {
+        "image": "/media/avatars/sexy.png"
+
+    }
+}]
+[{
+    "pk": 10,
+    "model": "avatars.avatar",
+    "fields": {
+        "image": "/media/avatars/thor.ico"
+
+    }
+}]
+[{
+    "pk": 11,
+    "model": "avatars.avatar",
+    "fields": {
+        "image": "/media/avatars/weird.ico"
+
+    }
+}]
+[{
+    "pk": 12,
+    "model": "avatars.avatar",
+    "fields": {
+        "image": "/media/avatars/white.png"
+
+    }
+}]
