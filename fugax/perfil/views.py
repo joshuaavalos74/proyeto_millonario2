@@ -4,6 +4,6 @@ from usuario.models import Perfil
 def perfil_especifico(request):
 	"""."""
 	perfil = Perfil.objects.get()
-	return render(request, 'lista_estudiantes.html',{'Perfil': perfil})
+	return render(request, 'profile.html',{'Perfil': perfil})
 
 
