@@ -16,12 +16,13 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 from django.contrib.auth import views as auth_views
+from perfil import views as perfil_views
 
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', auth_views.login, name="login"),
-    url(r'^$', auth_views.perfil, name="perfil")
+    url(r'^perfil/$', perfil_views.perfil_especifico, name="perfil")
 
 
 ]
