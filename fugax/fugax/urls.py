@@ -17,12 +17,14 @@ from django.conf.urls import url
 from django.contrib import admin
 from django.contrib.auth import views as auth_views
 from perfil import views as perfil_views
+from perfil.views import views as profiles
 
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', auth_views.login, name="login"),
     url(r'^perfil/$', perfil_views.perfil_especifico, name="perfil")
+    url(r'^$', profiles.perfil_especifico, name="perfil")
 
 
 ]
