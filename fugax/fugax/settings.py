@@ -103,6 +103,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+LOGIN_URL = '/'
 LOGIN_REDIRECT_URL = '/perfil'
 
 
