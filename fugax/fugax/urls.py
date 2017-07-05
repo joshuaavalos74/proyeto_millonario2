@@ -22,7 +22,7 @@ from perfil import views as perfil_views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', auth_views.login, name="login"),
-    url(r'^perfil/$', perfil_views.perfil_especifico, name="perfil"),
+    url(r'^perfil/$', perfil_views.perfil, name="perfil"),
     url(r'^perfil/(?P<profile_pk>[0-9]+)/$', perfil_views.perfil_especifico, name="perfil"),
 
 
