@@ -17,13 +17,15 @@ from django.conf.urls import url
 from django.contrib import admin
 from django.contrib.auth import views as auth_views
 from perfil import views as perfil_views
+from django.conf import settings
+from django.contrib.staticfiles.urls import static
 
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', auth_views.login, name="login"),
     url(r'^perfil/$', perfil_views.perfil, name="perfil"),
-    url(r'^perfil/(?P<profile_pk>[0-9]+)/$', perfil_views.perfil_especifico, name="perfil"),
-
-
+    url(r'^perfil/(?P<profile_pk>[0-9]+)/$', perfil_views.perfil_especifico, name="perfil")
 ]
+
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
