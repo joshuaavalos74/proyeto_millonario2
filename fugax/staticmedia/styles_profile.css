@@ -2,44 +2,12 @@ body{
 		font-family: 'Open Sans', sans-serif;
 		background: url(img1.jpg);
 		background-size:cover;
-	}
+}
 
+.titulo{
+	font-size: 45px;
+	color: #01A9DB;
+	float:left;
+}
 
-	.primer_div{
-		height: 100px;
-		width: 100%;
-		border-radius: 10px
-	}
-
-
-
-	.super_titulo{
-		font-size: 45px;
-		color: #01A9DB;
-		float:left;
-		padding-top: 5px;
-
-	}
-
-	.contenedor{
-		height: 300px;	
-
-	}
-
-	.div_info{
-		width:50%;
-		float:left;
-		height: 100%;
-
-	}
-
-	.div_registro{
-		width:50%;
-		float:right;
-		height: 100%;
-	}
-
-	.explicacion{
-		color: #00BFFF;
-		font-size: 20px;
-	}
+	
